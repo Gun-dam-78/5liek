@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1.0">
+  <Targets>
+    <Target Name="Bootloader">
+      <TargetOption>
+        <TargetName>Bootloader</TargetName>
+        <TargetCommonOption>
+          <Device>GD32F470</Device>
+        </TargetCommonOption>
+      </TargetOption>
+      <Groups>
+        <Group>
+          <GroupName>Source</GroupName>
+          <Files>
+            <File>
+              <FileName>Bootloader/src/main.c</FileName>
+            </File>
+          </Files>
+        </Group>
+      </Groups>
+      <TargetOption>
+        <TargetCommonOption>
+          <ScatterFile>Bootloader/GD32F470_boot.sct</ScatterFile>
+        </TargetCommonOption>
+      </TargetOption>
+    </Target>
+  </Targets>
+</Project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uVisionProject>
+  <ProjectOptions>
+    <TargetName>Bootloader</TargetName>
+    <Device>GD32F470</Device>
+  </ProjectOptions>
+</uVisionProject>
