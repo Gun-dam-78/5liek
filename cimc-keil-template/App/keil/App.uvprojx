@@ -1,0 +1,9 @@
+# Keil MDK5 Project (.uvprojx) template
+
+This is a minimal Keil uVision project file template. You MUST open it in uVision and adjust the Target Device to the exact GD32F470 part and ensure the paths to CMSIS and HAL sources are correct. Use this as a starting point; if you prefer I can generate a fully-populated .uvprojx for your Keil version later.
+
+Instructions:
+- Save this file as App.uvprojx in the App/keil/ folder, then open in uVision.
+- Add CMSIS and GD32 HAL source folders to the project 'Group' as needed.
+
+(Generated placeholder - update device name and file lists inside uVision GUI.)

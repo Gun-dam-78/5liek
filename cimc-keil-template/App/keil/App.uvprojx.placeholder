@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Version="1.0">
+  <Targets>
+    <Target Name="App">
+      <TargetOption>
+        <TargetName>App</TargetName>
+        <TargetCommonOption>
+          <Device>GD32F470</Device>
+        </TargetCommonOption>
+      </TargetOption>
+      <Groups>
+        <Group>
+          <GroupName>Source</GroupName>
+          <Files>
+            <!-- Add source files via uVision UI if needed -->
+          </Files>
+        </Group>
+      </Groups>
+    </Target>
+  </Targets>
+</Project>
