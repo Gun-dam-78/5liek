@@ -1,0 +1,2 @@
+# Keil project metadata placeholder
+# The actual .uvprojx/.uvoptx files are generated with MDK; include these placeholders and instructions in README.
